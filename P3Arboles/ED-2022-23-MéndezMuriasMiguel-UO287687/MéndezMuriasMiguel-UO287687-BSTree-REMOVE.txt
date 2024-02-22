@@ -1,0 +1,96 @@
+Fecha y hora: 2022-12-08T20:48:11.959789900
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 2 despues de removeNode(150):
+		210
+	200
+		170
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 3 despues de removeNode(200):
+		210
+	170
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 4 despues de removeNode(100):
+		210
+	170
+90
+		70
+			60
+	50
+		30
+
+Arbol prueba 5 despues de removeNode(70):
+		210
+	170
+90
+		60
+	50
+		30
+
+Arbol prueba 6 despues de removeNode(90):
+		210
+	170
+60
+	50
+		30
+
+Arbol prueba 7 despues de removeNode(60):
+		210
+	170
+50
+	30
+
+Arbol prueba 8 despues de removeNode(50):
+		210
+	170
+30
+
+Arbol prueba 9 despues de removeNode(30):
+	210
+170
+
+Arbol prueba 10 despues de removeNode(170):
+210
+
+Arbol prueba 11 despues de removeNode(210):
+
+Arbol prueba 12 despues de removeNode(NodoInexistente):
+
+Element to remove is null.
+Arbol prueba 13 despues de removeNode(null):
+

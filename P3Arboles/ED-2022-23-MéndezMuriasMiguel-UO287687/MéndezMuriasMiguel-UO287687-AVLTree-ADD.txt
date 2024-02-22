@@ -1,0 +1,277 @@
+Fecha y hora: 2022-12-08T20:48:02.660797100
+Arbol prueba 1 despues de addNode(150):
+150:BF=0
+
+Arbol prueba 2 despues de addNode(100):
+150:BF=-1
+	100:BF=0
+
+Arbol prueba 3 despues de addNode(50):
+	150:BF=0
+100:BF=0
+	50:BF=0
+
+Arbol prueba 4 despues de addNode(30):
+	150:BF=0
+100:BF=-1
+	50:BF=-1
+		30:BF=0
+
+Arbol prueba 5 despues de addNode(130):
+	150:BF=-1
+		130:BF=0
+100:BF=0
+	50:BF=-1
+		30:BF=0
+
+Arbol prueba 6 despues de addNode(140):
+		150:BF=0
+	140:BF=0
+		130:BF=0
+100:BF=0
+	50:BF=-1
+		30:BF=0
+
+Arbol prueba 7 despues de addNode(40):
+		150:BF=0
+	140:BF=0
+		130:BF=0
+100:BF=0
+		50:BF=0
+	40:BF=0
+		30:BF=0
+
+Arbol prueba 8 despues de addNode(46):
+		150:BF=0
+	140:BF=0
+		130:BF=0
+100:BF=-1
+		50:BF=-1
+			46:BF=0
+	40:BF=1
+		30:BF=0
+
+Arbol prueba 9 despues de addNode(44):
+		150:BF=0
+	140:BF=0
+		130:BF=0
+100:BF=-1
+			50:BF=0
+		46:BF=0
+			44:BF=0
+	40:BF=1
+		30:BF=0
+
+Arbol prueba 10 despues de addNode(20):
+		150:BF=0
+	140:BF=0
+		130:BF=0
+100:BF=-1
+			50:BF=0
+		46:BF=0
+			44:BF=0
+	40:BF=0
+		30:BF=-1
+			20:BF=0
+
+Arbol prueba 11 despues de addNode(48):
+			150:BF=0
+		140:BF=0
+			130:BF=0
+	100:BF=0
+		50:BF=-1
+			48:BF=0
+46:BF=0
+		44:BF=0
+	40:BF=-1
+		30:BF=-1
+			20:BF=0
+
+Arbol prueba 12 despues de addNode(10):
+			150:BF=0
+		140:BF=0
+			130:BF=0
+	100:BF=0
+		50:BF=-1
+			48:BF=0
+46:BF=0
+		44:BF=0
+	40:BF=-1
+			30:BF=0
+		20:BF=0
+			10:BF=0
+
+Arbol prueba ADD final preOrder():
+46:BF=0	40:BF=-1	20:BF=0	10:BF=0	30:BF=0	44:BF=0	100:BF=0	50:BF=-1	48:BF=0	140:BF=0	130:BF=0	150:BF=0	
+Arbol prueba ADD final inOrder():
+10:BF=0	20:BF=0	30:BF=0	40:BF=-1	44:BF=0	46:BF=0	48:BF=0	50:BF=-1	100:BF=0	130:BF=0	140:BF=0	150:BF=0	
+Arbol prueba ADD final postOrder():
+10:BF=0	30:BF=0	20:BF=0	44:BF=0	40:BF=-1	48:BF=0	50:BF=-1	130:BF=0	150:BF=0	140:BF=0	100:BF=0	46:BF=0	
+
+Arbol prueba 13 despues de addNode(48) que ya existe:
+			150:BF=0
+		140:BF=0
+			130:BF=0
+	100:BF=0
+		50:BF=-1
+			48:BF=0
+46:BF=0
+		44:BF=0
+	40:BF=-1
+			30:BF=0
+		20:BF=0
+			10:BF=0
+
+Element to insert is null.
+Arbol prueba 14 despues de addNode(null):
+			150:BF=0
+		140:BF=0
+			130:BF=0
+	100:BF=0
+		50:BF=-1
+			48:BF=0
+46:BF=0
+		44:BF=0
+	40:BF=-1
+			30:BF=0
+		20:BF=0
+			10:BF=0
+
+Arbol prueba 1 despues de addNode(-150):
+-150:BF=0
+
+Arbol prueba 2 despues de addNode(-100):
+	-100:BF=0
+-150:BF=1
+
+Arbol prueba 3 despues de addNode(-50):
+	-50:BF=0
+-100:BF=0
+	-150:BF=0
+
+Arbol prueba 4 despues de addNode(-30):
+		-30:BF=0
+	-50:BF=1
+-100:BF=1
+	-150:BF=0
+
+Arbol prueba 5 despues de addNode(-130):
+		-30:BF=0
+	-50:BF=1
+-100:BF=0
+		-130:BF=0
+	-150:BF=1
+
+Arbol prueba 6 despues de addNode(-140):
+		-30:BF=0
+	-50:BF=1
+-100:BF=0
+		-130:BF=0
+	-140:BF=0
+		-150:BF=0
+
+Arbol prueba 7 despues de addNode(-40):
+		-30:BF=0
+	-40:BF=0
+		-50:BF=0
+-100:BF=0
+		-130:BF=0
+	-140:BF=0
+		-150:BF=0
+
+Arbol prueba 8 despues de addNode(-46):
+		-30:BF=0
+	-40:BF=-1
+			-46:BF=0
+		-50:BF=1
+-100:BF=1
+		-130:BF=0
+	-140:BF=0
+		-150:BF=0
+
+Arbol prueba 9 despues de addNode(-44):
+		-30:BF=0
+	-40:BF=-1
+			-44:BF=0
+		-46:BF=0
+			-50:BF=0
+-100:BF=1
+		-130:BF=0
+	-140:BF=0
+		-150:BF=0
+
+Arbol prueba 10 despues de addNode(-20):
+			-20:BF=0
+		-30:BF=1
+	-40:BF=0
+			-44:BF=0
+		-46:BF=0
+			-50:BF=0
+-100:BF=1
+		-130:BF=0
+	-140:BF=0
+		-150:BF=0
+
+Arbol prueba 11 despues de addNode(-48):
+			-20:BF=0
+		-30:BF=1
+	-40:BF=1
+		-44:BF=0
+-46:BF=0
+			-48:BF=0
+		-50:BF=1
+	-100:BF=0
+			-130:BF=0
+		-140:BF=0
+			-150:BF=0
+
+Arbol prueba 12 despues de addNode(-10):
+			-10:BF=0
+		-20:BF=0
+			-30:BF=0
+	-40:BF=1
+		-44:BF=0
+-46:BF=0
+			-48:BF=0
+		-50:BF=1
+	-100:BF=0
+			-130:BF=0
+		-140:BF=0
+			-150:BF=0
+
+Arbol prueba ADD final preOrder():
+-46:BF=0	-100:BF=0	-140:BF=0	-150:BF=0	-130:BF=0	-50:BF=1	-48:BF=0	-40:BF=1	-44:BF=0	-20:BF=0	-30:BF=0	-10:BF=0	
+Arbol prueba ADD final inOrder():
+-150:BF=0	-140:BF=0	-130:BF=0	-100:BF=0	-50:BF=1	-48:BF=0	-46:BF=0	-44:BF=0	-40:BF=1	-30:BF=0	-20:BF=0	-10:BF=0	
+Arbol prueba ADD final postOrder():
+-150:BF=0	-130:BF=0	-140:BF=0	-48:BF=0	-50:BF=1	-100:BF=0	-44:BF=0	-30:BF=0	-10:BF=0	-20:BF=0	-40:BF=1	-46:BF=0	
+
+Arbol prueba 13 despues de addNode(-48) que ya existe:
+			-10:BF=0
+		-20:BF=0
+			-30:BF=0
+	-40:BF=1
+		-44:BF=0
+-46:BF=0
+			-48:BF=0
+		-50:BF=1
+	-100:BF=0
+			-130:BF=0
+		-140:BF=0
+			-150:BF=0
+
+Element to insert is null.
+Arbol prueba 14 despues de addNode(null):
+			-10:BF=0
+		-20:BF=0
+			-30:BF=0
+	-40:BF=1
+		-44:BF=0
+-46:BF=0
+			-48:BF=0
+		-50:BF=1
+	-100:BF=0
+			-130:BF=0
+		-140:BF=0
+			-150:BF=0
+

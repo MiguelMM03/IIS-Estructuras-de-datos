@@ -1,0 +1,123 @@
+Fecha y hora: 2022-12-08T20:48:11.979793100
+Arbol prueba 1 despues de addNode(100):
+100
+
+Arbol prueba 2 despues de addNode(50):
+100
+	50
+
+Arbol prueba 3 despues de addNode(150):
+	150
+100
+	50
+
+Arbol prueba 4 despues de addNode(70):
+	150
+100
+		70
+	50
+
+Arbol prueba 5 despues de addNode(60):
+	150
+100
+		70
+			60
+	50
+
+Arbol prueba 6 despues de addNode(30):
+	150
+100
+		70
+			60
+	50
+		30
+
+Arbol prueba 7 despues de addNode(200):
+		200
+	150
+100
+		70
+			60
+	50
+		30
+
+Arbol prueba 8 despues de addNode(90):
+		200
+	150
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 9 despues de addNode(120):
+		200
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 10 despues de addNode(170):
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 11 despues de addNode(210):
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba ADD final preOrder():
+100	50	30	70	60	90	150	120	200	170	210	
+Arbol prueba ADD final inOrder():
+30	50	60	70	90	100	120	150	170	200	210	
+Arbol prueba ADD final postOrder():
+30	60	90	70	50	120	170	210	200	150	100	
+
+Arbol prueba 12 despues de addNode(60) que ya existe:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Element to insert is null.
+Arbol prueba 13 despues de addNode(null):
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
